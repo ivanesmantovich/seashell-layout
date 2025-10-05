@@ -29,9 +29,10 @@ const key_override_t ctrl_v_pgdn = ko_make_basic(MOD_MASK_CTRL, KC_V, KC_PGDN);
 const key_override_t alt_v_pgup = ko_make_basic(MOD_MASK_ALT, KC_V, KC_PGUP);
 
 const key_override_t *key_overrides[] = {
-    &ctrl_h_backspace,
     &ctrl_m_enter,
     &ctrl_i_tab,
+    &ctrl_h_backspace,
+    &ctrl_d_del,
     &ctrl_n_down,
     &ctrl_p_up,
     &ctrl_f_right,
@@ -39,6 +40,8 @@ const key_override_t *key_overrides[] = {
     &ctrl_w_cut,
     &ctrl_y_paste,
     &alt_w_copy,
+    &ctrl_v_pgdn,
+    &alt_v_pgup,
     NULL
 };
 
