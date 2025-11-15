@@ -22,11 +22,11 @@ const key_override_t ctrl_f_right = ko_make_basic(MOD_MASK_CTRL, KC_E, KC_RIGHT)
 const key_override_t ctrl_b_left = ko_make_basic(MOD_MASK_CTRL, KC_T, KC_LEFT);  // B is at T
 // Cut, copy, paste
 const key_override_t ctrl_w_cut = ko_make_basic(MOD_MASK_CTRL, KC_W, LGUI(KC_X));
-const key_override_t ctrl_y_paste = ko_make_basic(MOD_MASK_CTRL, KC_O, LGUI(KC_B)); // Y is at O, V is at B
+const key_override_t ctrl_y_paste = ko_make_basic(MOD_MASK_CTRL, KC_O, KC_F17); // Y is at O
 const key_override_t alt_w_copy = ko_make_basic(MOD_MASK_ALT, KC_W, LGUI(KC_C));
 // Scroll
 const key_override_t ctrl_v_pgdn = ko_make_basic(MOD_MASK_CTRL, KC_B, KC_PGDN);  // V is at B
-const key_override_t alt_v_pgup = ko_make_basic(MOD_MASK_ALT, KC_B, KC_PGUP);    // V is at Bio.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrixio.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrixio.github.colemakmods.keyboardlayout.colemakdh.colemakdhmatrix
+const key_override_t alt_v_pgup = ko_make_basic(MOD_MASK_ALT, KC_B, KC_PGUP);    // V is at B
 
 const key_override_t *key_overrides[] = {
     &ctrl_m_enter,
